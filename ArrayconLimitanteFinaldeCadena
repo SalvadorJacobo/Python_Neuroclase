@@ -1,0 +1,5 @@
+arreglo = ['banana', 'melon', 'sandia', 'pera']
+
+for fruta in arreglo:
+    if fruta.endswith('a'):
+        print("La fruta es: " + fruta)
