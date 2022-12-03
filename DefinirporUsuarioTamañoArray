@@ -1,0 +1,11 @@
+tamaño = int(input('Definir tamaño de array: '))
+variableNombres = []
+variableLongitud = []
+
+for nombres in range(0, tamaño):
+    variableNombres.append(input('Dame el nombre: '))
+print(variableNombres)
+
+for longitud in range(0, tamaño):
+    variableLongitud.append(len(variableNombres[longitud]))
+print(variableLongitud)
